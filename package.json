@@ -7,7 +7,7 @@
   "scripts": {
     "build": "CONTENT_ROOT=files CONTENT_TRANSLATED_ROOT=translated-files BUILD_OUT_ROOT=build yari-build",
     "start": "CONTENT_ROOT=files CONTENT_TRANSLATED_ROOT=translated-files REACT_APP_DISABLE_AUTH=true BUILD_OUT_ROOT=build yari-server",
-    "sync-ui": "cp -r ./node_modules/@mdn/yari/client/build/ ./build/"
+    "sync-ui": "cp -r ./node_modules/@mdn/yari/client/build/* ./build/"
   },
   "keywords": [],
   "author": "",
