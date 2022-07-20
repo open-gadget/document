@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/979.7bf6dfc6.chunk.css","mappings":"AACE,wCACE,mBAEA,uDACE","sources":["writers-homepage/index.scss"],"sourcesContent":["#writers-homepage {\n  .homepage-hero-search {\n    margin-bottom: 60px;\n\n    .search-button {\n      top: 0.25rem;\n    }\n  }\n}\n"],"names":[],"sourceRoot":""}
