@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  deploy-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +19,9 @@ jobs:
         run: |
           npm ci
           npm run build
+          ls node_modules/@mdn/yari/client
           npm run sync-ui
+          ls build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
