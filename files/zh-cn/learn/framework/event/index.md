@@ -37,7 +37,7 @@ slug: Learn/Framework/Event
   <text>Click me!</text>
 </view>
 ```
-```javaScript
+```javascript
 Block({
   methods: {
     tapName: function(event) { console.log(event) }
